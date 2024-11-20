@@ -1,120 +1,160 @@
----
-import BaseLayout from '../layouts/BaseLayout.astro';
+--- 
+import BaseLayout from "../layouts/BaseLayout.astro"; 
+import ContactCTA from "../components/ContactCTA.astro"; 
+import Hero from "../components/Hero.astro"; 
+--- 
 
-import ContactCTA from '../components/ContactCTA.astro';
-import Hero from '../components/Hero.astro';
----
+<BaseLayout 
+  title="À propos | Damien Fasquelle" 
+  description="Découvrez le parcours riche et les projets captivants de Damien Fasquelle, développeur Full Stack passionné." 
+> 
+  <div class="stack gap-20"> 
+    <main class="wrapper"> 
+		<section class="section1">
+			<h1>À propos</h1>
+			<p class="tagline">Bienvenue ! Plongez dans mon univers professionnel, mes expériences et ma vision du développement web.</p>
+			<img 
+          width="353" 
+          height="373" 
+          src="/public/assets/image/damienAvatar.jpg" 
+          alt="Damien Fasquelle travaillant sur un projet" 
+        /> 
+		</section>
+		<br/>
+      <section> 
+        <h2 class="section-title">Mon Parcours</h2> 
+        <div class="content"> 
+          <!-- Expérience IPERCOM -->
+          <div class="experience-block"> 
+            <h3>Alternant développeur Full Stack, IPERCOM - Montussan (depuis janvier 2024)</h3> 
+            <p>Chez Ipercom, j’interviens dans le développement d’interfaces utilisateur pour des solutions de téléphonie d’entreprise.</p> 
+            <ul> 
+              <li>Développement d’interfaces élégantes et performantes avec React et TypeScript.</li> 
+              <li>Intégration basée sur les templates Phoenix et Silicon pour assurer un rendu professionnel.</li> 
+              <li>Collaboration étroite avec une équipe multidisciplinaire, incluant freelances et alternants.</li> 
+              <li>Gestion des étapes clés du cycle de développement : conception, tests, et mise en production.</li> 
+            </ul> 
+          </div> 
 
-<BaseLayout title="About | Jeanine White" description="About Jeanine White Lorem Ipsum">
-	<div class="stack gap-20">
-		<main class="wrapper about">
-			<Hero
-				title="About"
-				tagline="Thanks for stopping by. Read below to learn more about myself and my background."
-			>
-				<img
-					width="1553"
-					height="873"
-					src="/assets/at-work.jpg"
-					alt="Jeanine White at work with a colleague"
-				/>
-			</Hero>
+          <!-- Expérience Hackathon -->
+          <div class="experience-block"> 
+            <h3>Hackathon, LA PISCINE - Mérignac (octobre 2023)</h3> 
+            <p>Participation à un hackathon intensif visant à concevoir un site interactif pour un concours de photographie.</p> 
+            <ul> 
+              <li>Développement d’une plateforme permettant la publication et le vote sur des photos.</li> 
+              <li>Gestion efficace des changements de direction et des attentes spécifiques du client.</li> 
+              <li>Création d’une interface utilisateur fluide et interactive avec un système de vote limité à 3 par jour.</li> 
+              <li>Présentation finale mettant en valeur les fonctionnalités principales et la convivialité du site.</li> 
+            </ul> 
+          </div> 
 
-			<section>
-				<h2 class="section-title">Background</h2>
-				<div class="content">
-					<p>
-						Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy.
-						Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum
-						id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla
-						pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare.
-					</p>
-					<p>
-						Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis
-						natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl
-						condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel
-						quam elementum pulvinar etiam non.
-					</p>
-					<p>
-						Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet
-						eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra.
-						Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl
-						pretium fusce.
-					</p>
-				</div>
-			</section>
-			<section>
-				<h2 class="section-title">Education</h2>
-				<div class="content">
-					<p>Corporis voluptates tenetur laudantium.</p>
-				</div>
-			</section>
-			<section>
-				<h2 class="section-title">Skills</h2>
-				<div class="content">
-					<p>officia unde omnis</p>
-				</div>
-			</section>
-		</main>
+          <!-- Projet Infinity Games -->
+          <div class="experience-block"> 
+            <h3>Projet "Infinity Games", LA PISCINE - Mérignac (avril - août 2023)</h3> 
+            <p>Conception d’un site web pour la gestion d’une bibliothèque de jeux vidéo, avec intégration de l’API RAWG.io.</p> 
+            <ul> 
+              <li>Création de wireframes et maquettes intuitifs pour garantir une expérience utilisateur optimale.</li> 
+              <li>Développement en React avec des composants réutilisables et un design responsive.</li> 
+              <li>Implémentation de filtres et de tri avancés pour faciliter la recherche de jeux.</li> 
+              <li>Test et optimisation pour assurer une stabilité et une satisfaction utilisateur maximales.</li> 
+            </ul> 
+          </div> 
+        </div> 
+      </section> 
 
-		<ContactCTA />
-	</div>
-</BaseLayout>
+      <section> 
+        <h2 class="section-title">Formations</h2> 
+        <div class="content"> 
+          <!-- Formation Bloc -->
+          <div class="formation-block"> 
+            <h3>2024/2025</h3> 
+            <p>Développeur web et web mobile RNCP niveau 5 (Bac+3) – LA PISCINE Bordeaux</p> 
+          </div> 
+          <div class="formation-block"> 
+            <h3>2020/2021</h3> 
+            <p>Titre Développeur web et web mobile RNCP niveau 4 (Bac+2) – LA PISCINE Bordeaux</p> 
+          </div> 
+          <div class="formation-block"> 
+            <h3>2018/2019</h3> 
+            <p>Licence Management du sport – Université Bordeaux Montaigne</p> 
+          </div> 
+          <div class="formation-block"> 
+            <h3>2015-2018</h3> 
+            <p>DUT Génie Biologique, option IAB – Université de Picardie Jules Verne, Amiens</p> 
+          </div> 
+        </div> 
+      </section> 
+    </main> 
 
-<style>
-	.about {
-		display: flex;
-		flex-direction: column;
-		gap: 3.5rem;
+    <ContactCTA /> 
+  </div> 
+</BaseLayout> 
+
+<style> 
+
+.tagline {
+		max-width: 37ch;
+		margin-inline: auto;
+		font-size: x-large;
 	}
 
-	img {
-		margin-top: 1.5rem;
-		border-radius: 1.5rem;
-		box-shadow: var(--shadow-md);
-	}
+.section1 {
+	margin: auto;
+	width: 80%;
+	text-align: center;
+}
 
-	section {
-		display: flex;
-		flex-direction: column;
-		gap: 0.5rem;
-		color: var(--gray-200);
-	}
+  .about { 
+    display: flex; 
+    flex-direction: column; 
+    gap: 3.5rem; 
+  } 
 
-	.section-title {
-		grid-column-start: 1;
-		font-size: var(--text-xl);
-		color: var(--gray-0);
-	}
+  img { 
+    margin-top: 1.5rem; 
+    border-radius: 1.5rem; 
+    box-shadow: var(--shadow-md); 
+  } 
 
-	.content {
-		grid-column: 2 / 4;
-	}
+  .content { 
+    display: flex; 
+    flex-direction: column; 
+    gap: 2rem; 
+	margin: 2ch;
+  } 
 
-	.content :global(a) {
-		text-decoration: 1px solid underline transparent;
-		text-underline-offset: 0.25em;
-		transition: text-decoration-color var(--theme-transition);
-	}
+  .experience-block, .formation-block { 
+    background-color: var(--gray-900); 
+    padding: 1.5rem; 
+    border-radius: 1rem; 
+    box-shadow: var(--shadow-sm); 
+  } 
 
-	.content :global(a:hover),
-	.content :global(a:focus) {
-		text-decoration-color: currentColor;
-	}
+  .section-title { 
+    font-size: var(--text-xl); 
+    color: var(--gray-0); 
+  } 
 
-	@media (min-width: 50em) {
-		.about {
-			display: grid;
-			grid-template-columns: 1fr 60% 1fr;
-		}
+  h3 { 
+    font-size: var(--text-lg); 
+    margin-bottom: 0.5rem; 
+    color: var(--primary); 
+  } 
 
-		.about > :global(:first-child) {
-			grid-column-start: 2;
-		}
+  ul { 
+    padding-left: 1.5rem; 
+    list-style-type: disc; 
+  } 
 
-		section {
-			display: contents;
-			font-size: var(--text-lg);
-		}
-	}
-</style>
+  ul li { 
+    margin-bottom: 0.5rem; 
+    color: var(--gray-200); 
+  } 
+
+  @media (min-width: 50em) { 
+    .about { 
+      display: grid; 
+      grid-template-columns: 1fr 60% 1fr; 
+    } 
+  } 
+</style> 
