@@ -2,6 +2,7 @@
 import BaseLayout from "../layouts/BaseLayout.astro"; 
 import ContactCTA from "../components/ContactCTA.astro"; 
 import Hero from "../components/Hero.astro"; 
+import Icon from "../components/Icon.astro";
 --- 
 
 <BaseLayout 
@@ -22,7 +23,7 @@ import Hero from "../components/Hero.astro";
 		</section>
 		<br/>
       <section> 
-        <h2 class="section-title">Mon Parcours</h2> 
+        <h2 class="section-title">Mon Parcours <Icon icon="terminal-window" color="var(--accent-regular)" size="2.5rem" gradient /></h2> 
         <div class="content"> 
           <!-- Expérience IPERCOM -->
           <div class="experience-block"> 
@@ -63,7 +64,7 @@ import Hero from "../components/Hero.astro";
       </section> 
 
       <section> 
-        <h2 class="section-title">Formations</h2> 
+        <h2 class="section-title">Formations <Icon icon="list" color="var(--accent-regular)" size="2.5rem" gradient /></h2> 
         <div class="content"> 
           <!-- Formation Bloc -->
           <div class="formation-block"> 
@@ -84,6 +85,44 @@ import Hero from "../components/Hero.astro";
           </div> 
         </div> 
       </section> 
+      <section> 
+        <h2 class="section-title">Mes centres d'intérêts <Icon icon="heart" color="var(--accent-regular)" size="2.5rem" gradient /></h2> 
+        <div class="content2"> 
+          <div class="activite-block"> 
+            <h3>Badminton</h3> 
+            <p>Je pratique le badminton depuis 12 ans et suis arbitre de ligue certifié. Ce sport m’a permis de développer discipline, stratégie, et esprit d’équipe.</p> 
+          </div> 
+          <div class="activite-block"> 
+            <h3>Patinage</h3> 
+            <p>Passionné par le patinage, j’apprécie la précision et la fluidité de ce sport exigeant.</p> 
+          </div> 
+          <div class="activite-block"> 
+            <h3>Plongée</h3> 
+            <p>Exploration sous-marine pour découvrir les merveilles du monde aquatique et apprécier le calme des profondeurs.</p> 
+          </div> 
+          <div class="activite-block"> 
+            <h3>Escalade</h3> 
+            <p>Un sport qui allie endurance, force et réflexion pour relever des défis physiques et mentaux.</p> 
+          </div> 
+          <div class="activite-block"> 
+            <h3>Voyages</h3> 
+            <p>Passionné de voyages, je découvre régulièrement de nouvelles cultures et paysages pour enrichir ma vision du monde.</p> 
+          </div> 
+          <div class="activite-block"> 
+            <h3>Trading et Cryptomonnaies</h3> 
+            <p>Investisseur actif dans les cryptomonnaies et le trading, je me tiens informé des tendances économiques et technologiques.</p> 
+          </div> 
+          <div class="activite-block"> 
+            <h3>Codage</h3> 
+            <p>Le développement web reste une passion, que je cultive à travers mes projets personnels et professionnels.</p> 
+          </div> 
+          <div class="activite-block"> 
+            <h3>Jeux Vidéo</h3> 
+            <p>Fan de jeux vidéo, je m’intéresse aussi bien à leur design qu’à leur narration, en explorant divers genres et plateformes.</p> 
+          </div> 
+        </div> 
+      </section> 
+      
     </main> 
 
     <ContactCTA /> 
@@ -91,6 +130,26 @@ import Hero from "../components/Hero.astro";
 </BaseLayout> 
 
 <style> 
+
+.content2 { 
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    gap: 2rem; 
+    margin: 2ch;
+  } 
+
+  .activite-block { 
+    background-color: var(--gray-900); 
+    padding: 1.5rem; 
+    border-radius: 1rem; 
+    box-shadow: var(--shadow-sm); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  } 
+
+  .activite-block:hover { 
+    transform: translateY(-5px); 
+    box-shadow: var(--shadow-lg); 
+  } 
 
 .tagline {
 		max-width: 37ch;
@@ -123,7 +182,7 @@ import Hero from "../components/Hero.astro";
 	margin: 2ch;
   } 
 
-  .experience-block, .formation-block { 
+  .experience-block, .formation-block{ 
     background-color: var(--gray-900); 
     padding: 1.5rem; 
     border-radius: 1rem; 
@@ -155,6 +214,10 @@ import Hero from "../components/Hero.astro";
     .about { 
       display: grid; 
       grid-template-columns: 1fr 60% 1fr; 
+    } 
+    .content2 { 
+      grid-template-columns: repeat(3, 1fr); 
+      gap: 3rem; 
     } 
   } 
 </style> 

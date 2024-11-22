@@ -3,20 +3,25 @@ import Icon from './Icon.astro';
 ---
 
 <section class="box skills">
-	<div class="stack gap-2 lg:gap-4">
+	<div class="stack">
 		<Icon icon="terminal-window" color="var(--accent-regular)" size="2.5rem" gradient />
-		<h2>Full Stack</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+		<h2>Développement Web</h2>
+		<p>Expertise en technologies Full Stack : React, Symfony, PHP, JavaScript, HTML5, Sass, et Bootstrap. Création d’interfaces modernes et performantes.</p>
 	</div>
-	<div class="stack gap-2 lg:gap-4">
-		<Icon icon="trophy" color="var(--accent-regular)" size="2.5rem" gradient />
-		<h2>Industry Leader</h2>
-		<p>Neque viverra justo nec ultrices dui. Est ultricies integer quis auctor elit.</p>
+	<div class="stack">
+		<Icon icon="code" color="var(--accent-regular)" size="2.5rem" gradient />
+		<h2>Gestion de Base de Données</h2>
+		<p>Compétences solides avec MariaDB et Looping pour le design et l’optimisation des bases de données relationnelles.</p>
 	</div>
-	<div class="stack gap-2 lg:gap-4">
-		<Icon icon="strategy" color="var(--accent-regular)" size="2.5rem" gradient />
-		<h2>Strategy-Minded</h2>
-		<p>Urna porttitor rhoncus dolor purus non enim praesent ornare.</p>
+	<div class="stack">
+		<Icon icon="heart" color="var(--accent-regular)" size="2.5rem" gradient />
+		<h2>Méthodes Agiles</h2>
+		<p>Pratique des méthodologies Agile, gestion des projets avec Trello, Jira, diagrammes de Gantt, et collaboration en équipe.</p>
+	</div>
+	<div class="stack">
+		<Icon icon="sun" color="var(--accent-regular)" size="2.5rem" gradient />
+		<h2>Versionnement</h2>
+		<p>Expérience approfondie avec Git pour le contrôle de version et la collaboration sur des projets d’équipe.</p>
 	</div>
 </section>
 
@@ -51,7 +56,7 @@ import Icon from './Icon.astro';
 
 		.skills {
 			display: grid;
-			grid-template-columns: repeat(3, 1fr);
+			grid-template-columns: repeat(2, 1fr);
 			gap: 5rem;
 		}
 

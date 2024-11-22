@@ -1,35 +1,39 @@
 ---
-title: Markdown Mystery Tour
-publishDate: 2020-03-02 00:00:00
+title: MyPhotos - Concours de Photographie
+publishDate: 2024-11-22 00:00:00
 img: /assets/image/myPhotos.svg
-img_alt: Iridescent ripples of a bright blue and pink liquid
+img_alt: Une magnifique photo de paysage naturel capturant l'essence de la nature
 description: |
-  We designed a whodunnit-style game to introduce Markdown formatting. Suspense — suspicion — syntax!
+  MyPhotos est une plateforme où la beauté de la nature prend vie. Les visiteurs peuvent voter pour leurs photos préférées (jusqu'à 3 votes par jour) et contribuer à élire les meilleures œuvres.
 tags:
-  - Design
-  - Dev
-  - User Testing
+  - Développement
+  - React.js
+  - Node.js
+  - UX/UI
+  - Photographie
 ---
 
-## Level-two heading
+## Découvrez MyPhotos : Le Concours Nature
 
-> Tell me and I forget. Teach me and I remember. Involve me and I learn.
+> "La photographie, c'est un fragment de temps qui ne reviendra pas." - Martine Franck
 
-Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare.
+**MyPhotos** est un site web conçu dans le cadre d’un hackathon organisé par mon école **La Piscine**. Réalisé en collaboration avec un designer et en respectant un cahier des charges précis, le projet a été développé en une semaine. Cette plateforme célèbre la nature à travers la photographie et l’interaction des visiteurs.
 
-Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel quam elementum pulvinar etiam non.
+### Fonctionnalités principales
 
-### Level-three heading
+- **Votes Limités** : Les visiteurs peuvent voter jusqu'à 3 fois par jour, répartissant leurs choix entre plusieurs photos ou favorisant un coup de cœur particulier.  
+- **Thème Nature** : Chaque cliché soumis doit refléter la beauté, la diversité ou les mystères de la nature.  
+- **Modération des Publications** : Les images sont contrôlées avant d'être publiées pour garantir la qualité et la pertinence du contenu.  
 
-Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra. Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl pretium fusce.
+### Pourquoi MyPhotos ?
 
-### Level-three heading
+Proposer une plateforme comme **MyPhotos**, c'est inviter les amateurs de nature et de photographie à partager leur vision unique du monde. Ce projet met en avant une interface utilisateur intuitive et des fonctionnalités conçues pour engager activement les visiteurs.
 
-Sed pulvinar porttitor mi in ultricies. Etiam non dolor gravida eros pulvinar pellentesque et dictum ex. Proin eu ornare ligula, sed condimentum dui. Vivamus tincidunt tellus mi, sed semper ipsum pharetra a. Suspendisse sollicitudin at sapien nec volutpat. Etiam justo urna, laoreet ac lacus sed, ultricies facilisis dolor. Integer posuere, metus vel viverra gravida, risus elit ornare magna, id feugiat erat risus ullamcorper libero. Proin vitae diam auctor, laoreet lorem vitae, varius tellus.
+### En résumé
 
-Aenean pretium purus augue, ut bibendum erat convallis quis. Cras condimentum quis velit ac mollis. Suspendisse non purus fringilla, venenatis nisl porta, finibus odio. Curabitur aliquet metus faucibus libero interdum euismod. Morbi sed magna nisl. Morbi odio nibh, facilisis vel sapien eu, tempus tincidunt erat. Nullam erat velit, sagittis at purus quis, tristique scelerisque tortor. Pellentesque lacinia tortor id est aliquam viverra. Vestibulum et diam ac ipsum mollis fringilla.
+- Réalisé dans le cadre d'un hackathon avec un designer.
+- Une communauté passionnée par la nature.  
+- Un système de votes interactif qui donne aux visiteurs un rôle clé.  
+- Une interface moderne et accessible pour tous.  
 
-#### Level-four heading
-
-- We noted this
-- And also this other point
+Rejoignez MyPhotos et découvrez des paysages époustouflants à travers l’objectif des photographes du monde entier !

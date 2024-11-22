@@ -1,22 +1,44 @@
 ---
-title: h2.0
-publishDate: 2019-10-02 00:00:00
+title: Infinity Games
+publishDate: 2024-11-22 00:00:00
 img: /assets/image/infinityGames.png
-img_alt: Soft pink and baby blue water ripples together in a subtle texture.
+img_alt: Interface utilisateur d'Infinity Games affichant une bibliothèque de jeux vidéo.
 description: |
-  We developed brand positioning and design assets for the launch
-  of a new colored water product.
+  Infinity Games est un site web interactif développé avec Node.js et React.js. Il utilise l'API RAWG.io pour offrir aux utilisateurs une plateforme intuitive de découverte et d'évaluation de jeux vidéo.
 tags:
-  - Design
-  - Branding
+  - Développement Web
+  - Node.js
+  - React.js
+  - API
+  - Jeux Vidéo
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur posuere commodo venenatis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam non ligula vel metus efficitur hendrerit. In hac habitasse platea dictumst. Praesent et mauris ut mi dapibus semper. Curabitur tortor justo, efficitur sit amet pretium cursus, porta eget odio. Cras ac venenatis dolor. Donec laoreet posuere malesuada. Curabitur nec mi tempor, placerat leo sit amet, tincidunt est. Quisque pellentesque venenatis magna, eget tristique nibh pulvinar in. Vestibulum vitae volutpat arcu. Aenean ut malesuada odio, sit amet pellentesque odio. Suspendisse nunc elit, blandit nec hendrerit non, aliquet at magna. Donec id leo ut nulla sagittis sodales.
+## Infinity Games : Une Bibliothèque Vidéoludique Interactive
 
-Integer vitae nibh elit. Suspendisse eget urna eu neque bibendum pharetra. Sed interdum lectus sem, in pulvinar magna dignissim vel. Quisque maximus at urna nec laoreet. Suspendisse potenti. Vestibulum rhoncus sem ut mi pellentesque, in vestibulum erat blandit. Aliquam sodales dui ac maximus consectetur. Duis quis est vehicula, imperdiet nisl nec, fermentum erat. Duis tortor diam, pharetra eu euismod in, vehicula non eros. Curabitur facilisis dui at erat ultrices gravida. In at nunc ultricies, pulvinar mi vel, sagittis mauris. Praesent pharetra posuere purus ac imperdiet. Nulla facilisi.
+> "Le jeu vidéo, c'est l'art d'immerger le joueur dans un univers vivant et captivant."  
 
-Sed pulvinar porttitor mi in ultricies. Etiam non dolor gravida eros pulvinar pellentesque et dictum ex. Proin eu ornare ligula, sed condimentum dui. Vivamus tincidunt tellus mi, sed semper ipsum pharetra a. Suspendisse sollicitudin at sapien nec volutpat. Etiam justo urna, laoreet ac lacus sed, ultricies facilisis dolor. Integer posuere, metus vel viverra gravida, risus elit ornare magna, id feugiat erat risus ullamcorper libero. Proin vitae diam auctor, laoreet lorem vitae, varius tellus.
+**Infinity Games** est une plateforme interactive qui regroupe une bibliothèque de jeux vidéo. Réalisé dans le cadre de mon examen final pour l’obtention de mon titre professionnel RNCP6, ce projet a été validé avec succès par un jury.  
 
-Mauris sed eros in ex maximus volutpat. Suspendisse potenti. Donec lacinia justo consectetur sagittis tempor. Proin ullamcorper nisi vitae auctor rhoncus. Sed tristique aliquam augue. Pellentesque vitae fringilla ligula. Nulla arcu elit, efficitur eu nunc malesuada, eleifend tincidunt orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer mattis orci in bibendum ultricies. Quisque a dui erat. Phasellus et vulputate ipsum. Proin metus ex, lobortis nec ornare eget, bibendum ut sapien. Aliquam in dolor lobortis, aliquam tellus a, congue augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+### Fonctionnalités principales
 
-Aenean pretium purus augue, ut bibendum erat convallis quis. Cras condimentum quis velit ac mollis. Suspendisse non purus fringilla, venenatis nisl porta, finibus odio. Curabitur aliquet metus faucibus libero interdum euismod. Morbi sed magna nisl. Morbi odio nibh, facilisis vel sapien eu, tempus tincidunt erat. Nullam erat velit, sagittis at purus quis, tristique scelerisque tortor. Pellentesque lacinia tortor id est aliquam viverra. Vestibulum et diam ac ipsum mollis fringilla.
+- **Recherche Avancée** : Trouvez des jeux qui correspondent parfaitement à vos goûts grâce à des critères de tri comme le genre, la plateforme ou la note.  
+- **Notes et Avis** : Les visiteurs peuvent noter les jeux et rédiger des avis pour aider les autres utilisateurs à découvrir des pépites vidéoludiques.  
+- **Compatibilité Multi-Plateforme** : Explorez des jeux disponibles sur toutes les plateformes.  
+
+### Développement et Technologies
+
+Infinity Games s’appuie sur :  
+- **Node.js** et **React.js** pour une expérience utilisateur fluide et dynamique.  
+- **API RAWG.io** pour fournir des données actualisées sur les jeux vidéo.  
+
+### Pourquoi Infinity Games ?
+
+Ce projet est une réponse aux besoins des joueurs qui recherchent une plateforme intuitive et complète pour explorer des jeux vidéo. Avec des outils de tri efficaces et un système d’avis communautaire, Infinity Games devient un atout pour tous les passionnés.
+
+### En résumé
+
+- Projet validé dans le cadre d’un examen final.  
+- Plateforme complète pour découvrir, noter et recommander des jeux.  
+- Un outil interactif et multi-plateforme pour rassembler les joueurs.  
+
+Explorez l'univers vidéoludique avec **Infinity Games** et découvrez des jeux qui vous correspondent parfaitement !
