@@ -6,7 +6,7 @@ import Icon from './Icon.astro';
 	<div class="stack">
 		<Icon icon="terminal-window" color="var(--accent-regular)" size="2.5rem" gradient />
 		<h2>Développement Web</h2>
-		<p>Expertise en technologies Full Stack : React, Symfony, PHP, JavaScript, HTML5, Sass, et Bootstrap. Création d’interfaces modernes et performantes.</p>
+		<p>Expertise en technologies Full Stack :  <span> React </span>, Symfony, PHP, JavaScript, HTML5, Sass, et Bootstrap. Création d’interfaces modernes et performantes.</p>
 	</div>
 	<div class="stack">
 		<Icon icon="code" color="var(--accent-regular)" size="2.5rem" gradient />
@@ -46,6 +46,10 @@ import Icon from './Icon.astro';
 
 	.skills p {
 		color: var(--gray-400);
+	}
+	span {
+		font-weight: bolder;
+		font-size: larger;
 	}
 
 	@media (min-width: 50em) {
