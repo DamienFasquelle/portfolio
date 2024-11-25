@@ -1,0 +1,67 @@
+---
+import Icon from "./Icon.astro";
+---
+
+<section class="box skills">
+  <div class="stack">
+    <Icon icon="heart" color="var(--accent-regular)" size="1.5rem" gradient />
+    <div class="info">
+      <h4>06 61 90 43 93</h4>
+      <h4>27 ans</h4>
+      <h4>Bordeaux - Permis B</h4>
+    </div>
+  </div>
+</section>
+
+<style>
+
+  .box {
+    border: 1px solid var(--gray-800);
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    background-color: var(--gray-999_40);
+    box-shadow: var(--shadow-sm);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    max-width: 600px;
+    margin: auto;
+  }
+
+
+  .stack Icon {
+    flex-shrink: 0; 
+  }
+
+
+  .info {
+	margin-top: 1ch;
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+  }
+
+
+  .info h4 {
+    margin: 0;
+    font-size: var(--text-base);
+    font-weight: bold;
+    color: var(--gray-100);
+  }
+
+
+  @media (min-width: 768px) {
+    .box {
+      padding: 1.5rem;
+      border-radius: 1rem;
+    }
+  }
+  @media (min-width: 320px) {
+    .info {
+	margin-top: 1ch;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  }
+</style>

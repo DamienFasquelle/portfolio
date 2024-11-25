@@ -14,9 +14,9 @@ tags:
 
 ## CFTH 2024 : Une Plateforme pour le Congrès Annuel
 
-> "L'hémostasie : science, technique et collaboration pour le progrès médical."  
+> "L'hémostase : science, technique et collaboration pour le progrès médical."  
 
-Dans le cadre du **Congrès Annuel du Club Français des Techniciens en Hémostase (CFTH)**, j'ai conçu un site web pour l'hôpital de Pellegrin à Bordeaux. Ce projet visait à fournir une plateforme intuitive et dynamique pour les techniciens, biologistes et chercheurs participant à cet événement dédié aux avancées médicales en hémostasie.
+Dans le cadre du **Congrès Annuel du Club Français des Techniciens en Hémostase (CFTH)**, j'ai conçu un site web pour l'hôpital de Pellegrin à Bordeaux. Ce projet visait à fournir une plateforme intuitive et dynamique pour les techniciens, biologistes et chercheurs participant à cet événement dédié aux avancées médicales en hémostase.
 
 ### Fonctionnalités principales
 
@@ -40,4 +40,4 @@ Le site CFTH 2024 a été conçu pour répondre aux besoins spécifiques des par
 - Outil d’information et d’engagement pour les participants au congrès.  
 - Fonctionnalités interactives comme les quiz et le partage de photos.  
 
-Explorez le site du CFTH 2024 et découvrez comment cet événement rassemble les experts pour avancer dans le domaine de l’hémostasie !
+Explorez le site du CFTH 2024 et découvrez comment cet événement rassemble les experts pour avancer dans le domaine de l’hémostase !
