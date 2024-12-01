@@ -15,7 +15,7 @@ tags:
 
 ### Lien vers le site  
 
-🌐 **Visitez le site de Myphotos** : [En cours de développement](https://myphotos.ddvportfolio.com)
+🌐 **Visitez le site de Myphotos** : [En cours de développement]()
 
 ---
 
