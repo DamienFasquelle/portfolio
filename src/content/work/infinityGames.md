@@ -12,6 +12,11 @@ tags:
   - API
   - Jeux Vidéo
 ---
+### Lien vers le site  
+
+🌐 **Visitez le site d'infinity Games** : [En cours de développement](https://infinitygames.ddvportfolio.com)
+
+---
 
 ## Infinity Games : Une Bibliothèque Vidéoludique Interactive
 

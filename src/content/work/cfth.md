@@ -10,6 +10,13 @@ tags:
   - React.js
   - Symfony
   - Biologie Médicale
+  - Only Mobile
+---
+
+### Lien vers le site  
+
+🌐 **Visitez le site du cfth de bordeaux (mobile)**  : [cfthbordeaux](https://cfthbordeaux.com/)
+
 ---
 
 ## CFTH 2024 : Une Plateforme pour le Congrès Annuel

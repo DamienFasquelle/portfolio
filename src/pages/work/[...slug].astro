@@ -47,7 +47,7 @@ const { Content } = await entry.render();
         <div class="stack gap-10 content">
           {
             entry.data.img && (
-              <img src={entry.data.img} alt={entry.data.img_alt || ""} />
+              <img src={entry.data.img} alt={entry.data.img_alt || ""} class="image" />
             )
           }
           <div class="content">
@@ -61,6 +61,11 @@ const { Content } = await entry.render();
 </BaseLayout>
 
 <style>
+.image {
+  width: 250px;
+  margin: auto;
+}
+
   header {
     padding-bottom: 2.5rem;
     border-bottom: 1px solid var(--gray-800);
@@ -200,6 +205,11 @@ const { Content } = await entry.render();
       flex-wrap: wrap;
       justify-content: flex-start;
     }
+
+    .image {
+  width: 200px;
+  margin: auto;
+}
 
     .description {
       font-size: var(

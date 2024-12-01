@@ -42,6 +42,11 @@ const projects = (await getCollection("work"))
             >
           </div>
           <div class="roles">
+            <Pill
+              ><Icon icon="code" size="1.33em" /> Recherche alternance master </Pill
+            >
+          </div>
+          <div class="roles">
             <img src="/assets/image/react.png" alt="React" class="techno" />
             <img src="/assets/image/php.png" alt="PHP" class="techno" />
             <img
@@ -110,10 +115,6 @@ const projects = (await getCollection("work"))
     gap: 2rem;
   }
 
-  .roles {
-    display: none;
-  }
-
   .hero img {
     aspect-ratio: 5 / 4;
     object-fit: cover;
@@ -166,7 +167,7 @@ const projects = (await getCollection("work"))
     top: 0;
     transform: translateY(-75%) translateX(-50%);
     background:
-      url("public/assets/backgrounds/noise.png") top center/220px repeat,
+      /* url("public/assets/backgrounds/noise.png") top center/220px repeat, */
       var(--hero-bg) center center / var(--bg-gradient-size) no-repeat,
       var(--gray-999);
     background-blend-mode: overlay, normal, normal, normal;
